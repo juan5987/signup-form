@@ -76,7 +76,7 @@ const SignupForm = () => {
         <label className="auth-form__wrapper__label">Nom d'utilisateur</label>
         {/* Sur chaque input je prévois une classe pour entourer les inputs vide en rouge */}
         <input onChange={handleInputChange} className={signupErrorMsg && !signupFormValues.username ? "auth-form__wrapper__input inputError" : "auth-form__wrapper__input"} name="username"/>
-        <span className="auth-form__wrapper__infos">3 caractères minimum</span>
+        <span className="auth-form__wrapper__infos">3 caractères minimum, lettres uniquement ou lettres et chiffres</span>
       </div>
       <div className="auth-form__wrapper">
         <label className="auth-form__wrapper__label">Adresse email</label>
