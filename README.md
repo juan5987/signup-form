@@ -10,7 +10,7 @@ Un formulaire d'inscription sous React avec contrôle des données saisies.
 
 ## Contrôle des données
 
-Afin de valider le formulaire et d'effectuer la requete vers le back, l'utilisateur devrai respecterr les règles suivantes:
+Afin de valider le formulaire et d'effectuer la requete vers le back, l'utilisateur devra respecter les règles suivantes:
 
 - Tous les champs doivent être renseignés.
 - Le nom d'utilisateur doit contenir au moins 3 caractères
