@@ -1,0 +1,8 @@
+$primaryColor: rgb(255, 255, 255);
+$secondaryColor: rgb(233, 140, 0);
+$primaryColorLight: lighten($primaryColor, 45%);
+$secondaryColorLight: lighten($secondaryColor, 45%);
+$primaryColorDark: darken($primaryColor, 25%);
+$secondaryColorDark: darken($secondaryColor, 25%);
+$error: rgb(230, 0, 0);
+$success: rgb(0, 180, 0);
