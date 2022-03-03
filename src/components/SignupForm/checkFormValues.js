@@ -10,6 +10,8 @@ const checkFormValue = (values, setIsFormValidated) => {
     )
         return "Tous les champs doivent être complétés";
         // ou si les deux emails sont différents
+    else if (values.username.length < 3)
+        return "Le nom d'utilisateur doit contenir au moins 3 caractères";
     else if (values.email !== values.emailConfirm)
         return "Les adresses email ne correspondent pas";
         // ou si les deux password sont différents
